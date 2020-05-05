@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>QuizApp</title>
+</head>
+<body>
+
+    <div class="quiz-home-container custom-box show">
+        <h4>You have 15 seconds to answer each question</h4>
+        <button type="button" class="start-quiz-btn btn" id="start-btn">Start The Quiz</button>
+    </div>
+
+    <div class="quiz-container custom-box">
+        <div class="stats">
+            <div class="quiz-time">
+                <div class="remaining-time"></div>
+                <span class="time-is-up-text">Time is up!</span>
+            </div>
+            <div class="score-board">
+                <span class="score-text">Score</span>
+                <span class="correct-answers"></span>
+            </div>
+        </div>
+        <div class="question-box">
+            <div class="current-question-num">
+               
+            </div>
+            <div class="question-text">
+               
+            </div>
+        </div>
+        <div class="option-box answer-container">
+        </div>
+            <div class="answer-description">
+               
+            </div>
+            <div class="next-question">
+                <button type="button" class="next-question-btn btn">Next Question</button>
+                <button type="button" class="see-result-btn hide btn">See Result</button>
+            </div>
+    </div>
+    <div class="quiz-over custom-box">
+        <h1>Quiz Result</h1>
+        <h4>Total Questions: <span class="total-questions"></span></h4>
+        <h4>Attempts: <span class="total-attempt"></span></h4>
+        <h4>Correct: <span class="total-correct"></span></h4>
+        <h4>Wrong: <span class="total-wrong"></span></h4>
+        <h4>Percentage: <span class="percentage"></span></h4>
+        <button type="button" class="start-again-btn btn">Start Again</button>
+        <button type="button" class="go-home-btn btn">Go to Home</button>
+    </div>
+
+    <!-- <script type="text/javascript" src="js/app.js"></script> -->
+    <script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>
