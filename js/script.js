@@ -23,7 +23,7 @@ let interval;
 const questionsData = [
     {
       question: 'In what city was coronavirus (COVID-19) first discovered?', 
-      options: ['A: New York, USA', 'B: Lomardy, Italy', 'C: Wuhan, China', 'D; Lagos, Nigeria'],
+      options: ['A: New York', 'B: Lomardy', 'C: Wuhan', 'D; Lagos'],
       answers: 2,
       description:"The coronavirus outbreak was first identified in Wuhan, China in November, 2019." 
 },
