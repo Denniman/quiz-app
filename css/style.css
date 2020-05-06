@@ -298,6 +298,17 @@ body {
     animation: fadeInRight 1s ease;
 }
 
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(40px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
 .quiz-over h1 {
     font-size: 50px;
     color: #ff0060;
