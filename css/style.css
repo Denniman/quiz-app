@@ -1,6 +1,7 @@
 body {
     margin: 0;
     background-image: url("/img/bg-image.jpg");
+    background-color: #111111;
     background-attachment: fixed;
     font-size: 16px;
 }
